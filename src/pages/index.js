@@ -101,15 +101,27 @@ const IndexPage = (props) => {
         renderer={ImgWithTitle({ height: '460px' })}
       />
 
-      <h2><Link to='/gallery/mcfd2019-norasarman'>Marie Claire Fashion Days: Nora Sarman</Link></h2>
+      <h2><Link to='/category/marie-claire-fashion-days-2019'>Marie Claire Fashion Days 2019</Link></h2>
       <HorizontalMasonry
         items={[
           {title:'', src: 'mcfd2019-norasarman/DSC03564.jpg'},
           {title:'', src: 'mcfd2019-norasarman/DSC03546.JPG'},
           {title:'', src: 'mcfd2019-norasarman/DSC03550.jpg'},
-          {title:'', src: 'mcfd2019-norasarman/DSC03569.jpg'}
+          {title:'', src: 'mcfd2019-anitapasztor/DSC03759.jpg'},
+          {title:'', src: 'mcfd2019-tomcsanyi/DSC03522.jpg'},
+          {title:'', src: 'mcfd2019-viktoriavarga/DSC03645.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '505px' })}
+        renderer={ImgWithTitle({ height: '333px' })}
+      />
+
+    <h2><Link to='/gallery/train-cemetery'>Train: Agi</Link></h2>
+      <HorizontalMasonry
+        items={[
+          {title:'', src: 'train-cemetery/0DSC00215.jpg'},
+          {title:'', src: 'train-cemetery/DSC00206.jpg'},
+          {title:'', src: 'train-cemetery/DSC00151.jpg'}
+        ]}
+        renderer={ImgWithTitle({ height: '355px' })}
       />
 
       <h2><Link to='/gallery/studio-sidelight-eniko'>Sidelight: Eniko</Link></h2>
@@ -135,14 +147,14 @@ const IndexPage = (props) => {
         renderer={ImgWithTitle({ height: '300px' })}
       />
 
-      <h2><Link to='/gallery/studio-feszek-fashion'>Fészek set I: Sara</Link></h2>
+      <h2><Link to='/gallery/terem22-mimi'>Terem 22 set II: Mimi</Link></h2>
       <HorizontalMasonry
         items={[
-          {title:'', src: 'studio-feszek-fashion/DSC09621.jpg'},
-          {title:'', src: 'studio-feszek-fashion/DSC09619.jpg'},
-          {title:'', src: 'studio-feszek-fashion/DSC09603.jpg'}
+          {title:'', src: 'terem22-mimi/DSC05150.jpg'},
+          {title:'', src: 'terem22-mimi/DSC05190.jpg'},
+          {title:'', src: 'terem22-mimi/DSC05183.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '395px' })}
+        renderer={ImgWithTitle({ height: '475px' })}
       />
 
       <h2><Link to='/gallery/samalie-metro'>Metro: Samalie</Link></h2>
@@ -169,16 +181,6 @@ const IndexPage = (props) => {
         renderer={ImgWithTitle({ height: '277px' })}
       />
 
-      <h2><Link to='/gallery/train-cemetery'>Train: Agi</Link></h2>
-      <HorizontalMasonry
-        items={[
-          {title:'', src: 'train-cemetery/0DSC00215.jpg'},
-          {title:'', src: 'train-cemetery/DSC00206.jpg'},
-          {title:'', src: 'train-cemetery/DSC00151.jpg'}
-        ]}
-        renderer={ImgWithTitle({ height: '355px' })}
-      />
-
       <h2><Link to='/gallery/astoria-passage'>Passage: Agi</Link></h2>
       <HorizontalMasonry
         items={[
@@ -188,16 +190,6 @@ const IndexPage = (props) => {
           {title:'', src: 'astoria-passage/DSC09096.jpg'}
         ]}
         renderer={ImgWithTitle({ height: '260px' })}
-      />
-
-      <h2><Link to='/gallery/terem22-mimi'>Terem 22 set II: Mimi</Link></h2>
-      <HorizontalMasonry
-        items={[
-          {title:'', src: 'terem22-mimi/DSC05150.jpg'},
-          {title:'', src: 'terem22-mimi/DSC05190.jpg'},
-          {title:'', src: 'terem22-mimi/DSC05183.jpg'}
-        ]}
-        renderer={ImgWithTitle({ height: '475px' })}
       />
 
       <h2><Link to='/gallery/gul-baba-morning'>Sunrise: Regina</Link></h2>
@@ -249,6 +241,16 @@ const IndexPage = (props) => {
         renderer={ImgWithTitle({ height: '330px' })}
       />
       
+      <h2><Link to='/gallery/studio-feszek-fashion'>Fészek set I: Sara</Link></h2>
+      <HorizontalMasonry
+        items={[
+          {title:'', src: 'studio-feszek-fashion/DSC09621.jpg'},
+          {title:'', src: 'studio-feszek-fashion/DSC09619.jpg'},
+          {title:'', src: 'studio-feszek-fashion/DSC09603.jpg'}
+        ]}
+        renderer={ImgWithTitle({ height: '395px' })}
+      />
+
     </Layout>
   )
 }

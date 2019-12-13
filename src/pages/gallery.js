@@ -4,6 +4,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import texts from "../data/texts-hu.json";
+
 const Gallery = (props) => {
     const slug = props['*'];
     const files = props.data.files.nodes.filter(file => file.relativeDirectory === slug);
@@ -11,6 +13,17 @@ const Gallery = (props) => {
     return (
         <Layout>
           <SEO title="Póth Attila Portrait Photography" />
+          {
+            texts[slug] && 
+            texts[slug].description && 
+            texts[slug].description.split('\n').map(
+              line => (
+                <p className='description'>
+                  {line}
+                </p>
+              )
+            )
+          }
           <div className='gallery-stories'>
             {files.map((file, i) => (
                 <div className='story' key={i}>

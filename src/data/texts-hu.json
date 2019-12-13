@@ -1,0 +1,398 @@
+{
+    "bulleit": {
+        "slug": "bulleit",
+        "title": "Bulleit",
+        "short": "",
+        "description": "Product photoshoot for Bulleit sponsored mobster theme party"
+    },
+    "marie-claire-fashion-days": {
+        "slug": "marie-claire-fashion-days",
+        "title": "Marie Claire Fashion Days 2019",
+        "short": "",
+        "description": "Marie Claire Fashion Days, 2019"
+    },
+    "mcfd2019-norasarman": {
+        "slug": "mcfd2019-norasarman",
+        "title": "MCFD: Nora Sarman",
+        "short": "",
+        "description": "Marie Claire Fashion Days, 2019"
+    },
+    "mcfd2019-viktoriavarga": {
+        "slug": "mcfd2019-viktoriavarga",
+        "title": "MCFD: Viktoria Varga",
+        "short": "",
+        "description": "Marie Claire Fashion Days, 2019"
+    },
+    "mcfd2019-tomcsanyi": {
+        "slug": "mcfd2019-tomcsanyi",
+        "title": "MCFD: Tomcsanyi",
+        "short": "",
+        "description": "Marie Claire Fashion Days, 2019"
+    },
+    "mcfd2019-anitapasztor": {
+        "slug": "mcfd2019-anitapasztor",
+        "title": "MCFD: Anita Pasztor",
+        "short": "",
+        "description": "Marie Claire Fashion Days, 2019"
+    },
+    "terem22-mimi": {
+        "slug": "terem22-mimi",
+        "title": "Mimi",
+        "short": "",
+        "description": "Terem 22 Studio photoshoot \nModel: Mimi \nMUA: Szabó Anna Nóra"
+    },
+    "b72-kaderin-gold": {
+        "slug": "b72-kaderin-gold",
+        "title": "B72: gold",
+        "short": "",
+        "description": "B72 Studio photoshoot \nModel: Kaderine Constance \nMUA: Barbara Veréb"
+    },
+    "b72-kaderin-dummy": {
+        "slug": "b72-kaderin-dummy",
+        "title": "B72: dummy",
+        "short": "",
+        "description": "B72 Studio photoshoot \nModel: Kaderine Constance \nMUA: Barbara Veréb"
+    },
+    "b72-kaderin-crops": {
+        "slug": "b72-kaderin-crops",
+        "title": "B72: crops",
+        "short": "",
+        "description": "B72 Studio photoshoot \nModel: Kaderine Constance \nMUA: Barbara Veréb"
+    },
+    "b72-kaderin-curtain": {
+        "slug": "b72-kaderin-curtain",
+        "title": "B72: curtain",
+        "short": "",
+        "description": "B72 Studio photoshoot \nModel: Kaderine Constance \nMUA: Barbara Veréb"
+    },
+    "b72-zsu-prism": {
+        "slug": "b72-zsu-prism",
+        "title": "B72: prism",
+        "short": "",
+        "description": "B72 Studio photoshoot \nModel: Balla Zsu \nMUA: Barbara Veréb"
+    },
+    "b72-zsu-tinsel-curtain": {
+        "slug": "b72-zsu-tinsel-curtain",
+        "title": "B72: silver",
+        "short": "",
+        "description": "B72 Studio photoshoot \nModel: Balla Zsu \nMUA: Barbara Veréb"
+    },
+    "samalie-botanical": {
+        "slug": "samalie-botanical",
+        "title": "Samalie Botanical",
+        "short": "",
+        "description": ""
+    },
+    "amsterdam-and-haarlem": {
+        "slug": "amsterdam-and-haarlem",
+        "title": "Amsterdam and Haarlem",
+        "short": "",
+        "description": ""
+    },
+    "barcelona-castelldefels": {
+        "slug": "barcelona-castelldefels",
+        "title": "Castelldefels: Escola de Surf",
+        "short": "",
+        "description": ""
+    },
+    "barcelona-la-boqueria": {
+        "slug": "barcelona-la-boqueria",
+        "title": "Barcelona: La Boqueria",
+        "short": "",
+        "description": ""
+    },
+    "barcelona-la-merce": {
+        "slug": "barcelona-la-merce",
+        "title": "Barcelona: La Merce",
+        "short": "",
+        "description": ""
+    },
+    "barcelona-manteros": {
+        "slug": "barcelona-manteros",
+        "title": "Barcelona: manteros & guiris",
+        "short": "",
+        "description": ""
+    },
+    "barcelona-sitges": {
+        "slug": "barcelona-sitges",
+        "title": "Barcelona: Sitges",
+        "short": "",
+        "description": ""
+    },
+    "barcelona-walden-7": {
+        "slug": "barcelona-walden-7",
+        "title": "Barcelona: Walden 7",
+        "short": "",
+        "description": ""
+    },
+    "berlin": {
+        "slug": "berlin",
+        "title": "Berlin",
+        "short": "",
+        "description": ""
+    },
+    "budapest-duna-corso": {
+        "slug": "budapest-duna-corso",
+        "title": "Budapest: Duna korzó",
+        "short": "",
+        "description": ""
+    },
+    "budapest-parliament": {
+        "slug": "budapest-parliament",
+        "title": "Budapest: Parlament",
+        "short": "",
+        "description": ""
+    },
+    "cinque-terre": {
+        "slug": "cinque-terre",
+        "title": "Cinque Terre",
+        "short": "",
+        "description": ""
+    },
+    "flights-aviation": {
+        "slug": "flights-aviation",
+        "title": "Flights, aviation",
+        "short": "",
+        "description": ""
+    },
+    "genova-streets": {
+        "slug": "genova-streets",
+        "title": "Streets of Genova",
+        "short": "",
+        "description": ""
+    },
+    "grancanaria-maspalomas": {
+        "slug": "grancanaria-maspalomas",
+        "title": "Gran Canaria: Dunes of Maspalomas",
+        "short": "",
+        "description": ""
+    },
+    "greece-thasos": {
+        "slug": "greece-thasos",
+        "title": "Greece: Thasos",
+        "short": "",
+        "description": ""
+    },
+    "lanzarote-streets": {
+        "slug": "lanzarote-streets",
+        "title": "The Canaries: Lanzarote",
+        "short": "",
+        "description": ""
+    },
+    "nyc-bryant-park": {
+        "slug": "nyc-bryant-park",
+        "title": "New York: \nBryant Park",
+        "short": "",
+        "description": ""
+    },
+    "nyc-chinatown": {
+        "slug": "nyc-chinatown",
+        "title": "New York: Chinatown",
+        "short": "",
+        "description": ""
+    },
+    "nyc-pier-17": {
+        "slug": "nyc-pier-17",
+        "title": "New York: \nPier 17",
+        "short": "",
+        "description": ""
+    },
+    "nyc-staten-island": {
+        "slug": "nyc-staten-island",
+        "title": "New York: Staten Island Ferry",
+        "short": "",
+        "description": ""
+    },
+    "nyc-time-square": {
+        "slug": "nyc-time-square",
+        "title": "New York: Time Square",
+        "short": "",
+        "description": ""
+    },
+    "paris": {
+        "slug": "paris",
+        "title": "Paris",
+        "short": "",
+        "description": ""
+    },
+    "portraits": {
+        "slug": "portraits",
+        "title": "Other portraits",
+        "short": "",
+        "description": ""
+    },
+    "tenerife-anaga-chinamada": {
+        "slug": "tenerife-anaga-chinamada",
+        "title": "Tenerife: Anaga and the barrancos",
+        "short": "",
+        "description": ""
+    },
+    "flokken-vikings": {
+        "slug": "flokken-vikings",
+        "title": "Flokken: Vikings",
+        "short": "",
+        "description": "Photoshoot for a vikings tradition group, Flokken"
+    },
+    "samalie-metro": {
+        "slug": "samalie-metro",
+        "title": "Metro 4",
+        "short": "",
+        "description": ""
+    },
+    "chinese-newyear": {
+        "slug": "chinese-newyear",
+        "title": "Chinese New Year",
+        "short": "",
+        "description": ""
+    },
+    "studio-sidelight-eniko": {
+        "slug": "studio-sidelight-eniko",
+        "title": "Sidelight: Eniko",
+        "short": "",
+        "description": ""
+    },
+    "studio-feszek-lowkey": {
+        "slug": "studio-feszek-lowkey",
+        "title": "Studio photoshoot: low-key & glamour",
+        "short": "",
+        "description": ""
+    },
+    "studio-feszek-poledance": {
+        "slug": "studio-feszek-poledance",
+        "title": "Studio photoshoot: silhouette & body projection",
+        "short": "",
+        "description": ""
+    },
+    "macro-benko": {
+        "slug": "macro-benko",
+        "title": "Macrophotography",
+        "short": "",
+        "description": ""
+    },
+    "ganz-dori": {
+        "slug": "ganz-dori",
+        "title": "Urban exploration",
+        "short": "",
+        "description": ""
+    },
+    "gozsdu-cinti": {
+        "slug": "gozsdu-cinti",
+        "title": "Arcade",
+        "short": "",
+        "description": ""
+    },
+    "gozsdu-viki": {
+        "slug": "gozsdu-viki",
+        "title": "Arcade II",
+        "short": "",
+        "description": ""
+    },
+    "romai-andi": {
+        "slug": "romai-andi",
+        "title": "Spring photoshoot",
+        "short": "",
+        "description": ""
+    },
+    "verona-streetportraits": {
+        "slug": "verona-streetportraits",
+        "title": "Verona: street portraits",
+        "short": "",
+        "description": ""
+    },
+    "theater-a-no-a-tet": {
+        "slug": "theater-a-no-a-tet",
+        "title": "Theater premier: A no a tet",
+        "short": "",
+        "description": ""
+    },
+    "costa-brava-gr-92": {
+        "slug": "costa-brava-gr-92",
+        "title": "Costa Brava",
+        "short": "",
+        "description": ""
+    },
+    "gul-baba-morning": {
+        "slug": "gul-baba-morning",
+        "title": "Fictional sportswear",
+        "short": "",
+        "description": ""
+    },
+    "tattooers": {
+        "slug": "tattooers",
+        "title": "Tattoocon & \nTattoo Majális",
+        "short": "",
+        "description": ""
+    },
+    "concert-durer": {
+        "slug": "concert-durer",
+        "title": "Tribute at Dürer",
+        "short": "",
+        "description": ""
+    },
+    "brasilian-wedding": {
+        "slug": "brasilian-wedding",
+        "title": "Leo & Andreia: a Brasilian wedding",
+        "short": "",
+        "description": ""
+    },
+    "minicooper-roadtrip": {
+        "slug": "minicooper-roadtrip",
+        "title": "SpaR53tan",
+        "short": "",
+        "description": ""
+    },
+    "urban-world-games": {
+        "slug": "urban-world-games",
+        "title": "Urban World Games",
+        "short": "",
+        "description": ""
+    },
+    "vacratot-botanical": {
+        "slug": "vacratot-botanical",
+        "title": "Vácrátót Botanical Gardens",
+        "short": "",
+        "description": ""
+    },
+    "rome-surreal": {
+        "slug": "rome-surreal",
+        "title": "Rome Surrealism",
+        "short": "",
+        "description": ""
+    },
+    "train-cemetery": {
+        "slug": "train-cemetery",
+        "title": "Train Cemetery",
+        "short": "",
+        "description": ""
+    },
+    "feelings": {
+        "slug": "feelings",
+        "title": "Feelings",
+        "short": "",
+        "description": ""
+    },
+    "tel-aviv-port": {
+        "slug": "tel-aviv-port",
+        "title": "Tel Aviv: Jaffa port",
+        "short": "",
+        "description": ""
+    },
+    "astoria-passage": {
+        "slug": "astoria-passage",
+        "title": "Astoria passage",
+        "short": "",
+        "description": ""
+    },
+    "kisoroszi-prism": {
+        "slug": "kisoroszi-prism",
+        "title": "Prism portraits",
+        "short": "",
+        "description": ""
+    },
+    "studio-feszek-fashion": {
+        "slug": "studio-feszek-fashion",
+        "title": "Studio photoshoot: Extreme fashion",
+        "short": "",
+        "description": ""
+    }
+}

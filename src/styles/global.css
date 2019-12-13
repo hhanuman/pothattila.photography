@@ -104,6 +104,13 @@ main h2 a {
     line-height: 2px;
     letter-spacing: -3px;
 }
+
+p.description {
+    margin: 15px 0 15px 60px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 /*===================
     DESKTOP
 ====================*/
@@ -174,7 +181,8 @@ main h2 a {
         max-height: 800px;
     }
     .gallery-stories {
-        text-align: center
+        text-align: center;
+        margin: 45px 0 0 0;
     }
     main h2:after {
         content: '';
