@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+*:before, *:after {
+    box-sizing: inherit;
+}
+h1 { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 23px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 23px; 
+} 
+h3 { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 17px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 23px; 
+} 
+p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
+blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
+pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+ul {
+    list-style: none;
+}
+
+.flexcontainer {
+    display: flex;
+}
+.flexitem {
+    flex: 1;
+}
+.flexstart {
+    justify-content: flex-start;
+}
+.flexend {
+    justify-content: flex-end;
+}
+main {
+    margin: auto 10px;
+}
+h1,
+h2 {
+    font-weight: 100;
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.cover {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cover img {
+    z-index: 1;
+}
+.cover h3 {
+    position: absolute;
+    text-align: center;
+    max-width: 50%;
+    color: white;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 36px;
+    opacity: 1;
+    z-index: 2;
+    padding: 10px;
+    border: 5px solid rgba(255, 255, 255, 0);
+}
+.cover a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main h2 {
+    padding: 0 0 0 54px;
+}
+main h2,
+main h2 a {
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 0.7;
+    font-size: 50px;
+    line-height: 2px;
+    letter-spacing: -3px;
+}
+/*===================
+    DESKTOP
+====================*/
+@media (pointer: fine){
+    .wrapper {
+        min-height: 100vh;
+        max-width: 1440px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    nav {
+        padding: 10px 0 10px 20px;
+    }
+    nav li {
+        padding: 0 10px 0 10px;
+    }
+    nav .secondary {
+        padding: 10px 45px 0 0;
+    }
+    nav .secondary li {
+        line-height: 66px;
+        font-size: 20px;
+    }
+    .masonry {
+        column-count: 3;
+        column-gap: 5px;
+        width: 100%;
+    }
+    .masonry-item {
+        display: inline-block;
+    }
+    .cover img {
+        max-width: 454px;
+        width: 100%; 
+    }
+    .horizontal-masonry-item img {
+        height: 100%;
+    }
+    .horizontal-masonry-item.open {
+        position: fixed;
+        transition: all 0.33s ease-out;
+        display: flex!important;
+        justify-content: center;
+        z-index: 10;
+        width: 100%;
+        background-color: rgba(255, 255, 255 ,0.9);
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+    .horizontal-masonry-item.open img {
+        max-height: none!important;
+        padding: 20px;
+    }
+    .cover h3 {
+        line-height: 36px;
+        font-size: 42px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .story {
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .story img {
+        max-height: 800px;
+    }
+    .gallery-stories {
+        text-align: center
+    }
+    main h2:after {
+        content: '';
+        opacity: 0;
+        transition: opacity 0.2s ease-in;
+    }
+    main h2:hover:after {
+        content: ' ⟹ ';
+        opacity: 0.3;
+    }
+}
+
+/*===================
+    MOBILE
+====================*/
+@media (pointer:coarse) { 
+    .masonry {
+        column-count: 1;
+        column-gap: 5px;
+    }
+    main {
+        column-count: 1;
+        column-gap: 5px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav .primary,
+    nav .secondary {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    nav li {
+        padding: 0 5px 0 0;
+    }
+    .cover h3 {
+        font-size: 150%;
+        line-height: 36px;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    .story p {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .cover img,
+    .story img {
+        width: 100%; 
+    }
+    .horizontal-masonry-item img {
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

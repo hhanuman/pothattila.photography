@@ -1,0 +1,603 @@
+[
+    {
+        "name": "Bulleit",
+        "categories": [
+            "commercial"
+        ],
+        "slug": "bulleit",
+        "cover": "bulleit/DSC01253.jpg"
+    },
+    {
+        "name": "Marie Claire Fashion Days 2019",
+        "categories": [
+            "portrait",
+            "fashion"
+        ],
+        "slug": "marie-claire-fashion-days",
+        "cover": "marie-claire-fashion-days/DSC03133.jpg"
+    },
+    {
+        "name": "MCFD: Nora Sarman",
+        "categories": [
+            "portrait",
+            "fashion"
+        ],
+        "slug": "mcfd2019-norasarman",
+        "cover": "mcfd2019-norasarman/DSC03546.jpg"
+    },
+    {
+        "name": "MCFD: Viktoria Varga",
+        "categories": [
+            "portrait",
+            "fashion"
+        ],
+        "slug": "mcfd2019-viktoriavarga",
+        "cover": "mcfd2019-viktoriavarga/DSC03645.jpg"
+    },
+    {
+        "name": "MCFD: Tomcsanyi",
+        "categories": [
+            "portrait",
+            "fashion"
+        ],
+        "slug": "mcfd2019-tomcsanyi",
+        "cover": "mcfd2019-tomcsanyi/DSC03522.jpg"
+    },
+    {
+        "name": "MCFD: Anita Pasztor",
+        "categories": [
+            "portrait",
+            "fashion"
+        ],
+        "slug": "mcfd2019-anitapasztor",
+        "cover": "mcfd2019-anitapasztor/DSC03759.jpg"
+    },
+    {
+        "name": "Mimi",
+        "categories": [
+            "portrait",
+            "beauty",
+            "fashion",
+            "studio"
+        ],
+        "slug": "terem22-mimi",
+        "cover": "terem22-mimi/DSC05052.jpg"
+    },
+    {
+        "name": "B72: gold",
+        "categories": [
+            "portrait",
+            "beauty",
+            "fashion",
+            "studio"
+        ],
+        "slug": "b72-kaderin-gold",
+        "cover": "b72-kaderin-gold/DSC00900.jpg"
+    },
+    {
+        "name": "B72: dummy",
+        "categories": [
+            "portrait",
+            "beauty",
+            "fashion",
+            "studio"
+        ],
+        "slug": "b72-kaderin-dummy",
+        "cover": "b72-kaderin-dummy/DSC00222-16-9-crop.jpg"
+    },
+    {
+        "name": "B72: crops",
+        "categories": [
+            "portrait",
+            "beauty",
+            "fashion",
+            "studio"
+        ],
+        "slug": "b72-kaderin-crops",
+        "cover": "b72-kaderin-crops/DSC00658.jpg"
+    },
+    {
+        "name": "B72: curtain",
+        "categories": [
+            "portrait",
+            "beauty",
+            "fashion",
+            "studio"
+        ],
+        "slug": "b72-kaderin-curtain",
+        "cover": "b72-kaderin-curtain/DSC00565.jpg"
+    },
+    {
+        "name": "B72: prism",
+        "categories": [
+            "portrait",
+            "beauty",
+            "fashion",
+            "studio"
+        ],
+        "slug": "b72-zsu-prism",
+        "cover": "b72-zsu-prism/DSC00060.jpg"
+    },
+    {
+        "name": "B72: silver",
+        "categories": [
+            "portrait",
+            "beauty",
+            "fashion",
+            "studio"
+        ],
+        "slug": "b72-zsu-tinsel-curtain",
+        "cover": "b72-zsu-tinsel-curtain/DSC00741.jpg"
+    },
+    {
+        "name": "Samalie Botanical",
+        "categories": [
+            "portrait",
+            "fashion",
+            "studio"
+        ],
+        "slug": "samalie-botanical",
+        "cover": "samalie-botanical/DSC09878-emerald.jpg"
+    },
+    {
+        "name": "Amsterdam and Haarlem",
+        "categories": [
+            "travel",
+            "streetportrait"
+        ],
+        "slug": "amsterdam-and-haarlem",
+        "cover": ""
+    },
+    {
+        "name": "Castelldefels: Escola de Surf",
+        "categories": [
+            "travel"
+        ],
+        "slug": "barcelona-castelldefels",
+        "cover": ""
+    },
+    {
+        "name": "Barcelona: La Boqueria",
+        "categories": [
+            "travel"
+        ],
+        "slug": "barcelona-la-boqueria",
+        "cover": ""
+    },
+    {
+        "name": "Barcelona: La Merce",
+        "categories": [
+            "event",
+            "travel",
+            "streetportrait"
+        ],
+        "slug": "barcelona-la-merce",
+        "cover": ""
+    },
+    {
+        "name": "Barcelona: manteros & guiris",
+        "categories": [
+            "streetportrait"
+        ],
+        "slug": "barcelona-manteros",
+        "cover": ""
+    },
+    {
+        "name": "Barcelona: Sitges",
+        "categories": [
+            "travel"
+        ],
+        "slug": "barcelona-sitges",
+        "cover": ""
+    },
+    {
+        "name": "Barcelona: Walden 7",
+        "categories": [
+            "travel"
+        ],
+        "slug": "barcelona-walden-7",
+        "cover": ""
+    },
+    {
+        "name": "Berlin",
+        "categories": [
+            "travel",
+            "streetportrait"
+        ],
+        "slug": "berlin",
+        "cover": ""
+    },
+    {
+        "name": "Budapest: Duna korzó",
+        "categories": [
+            "streetportrait",
+            "outdoor"
+        ],
+        "slug": "budapest-duna-corso",
+        "cover": ""
+    },
+    {
+        "name": "Budapest: Parlament",
+        "categories": [
+            "travel"
+        ],
+        "slug": "budapest-parliament",
+        "cover": ""
+    },
+    {
+        "name": "Cinque Terre",
+        "categories": [
+            "travel",
+            "streetportrait"
+        ],
+        "slug": "cinque-terre",
+        "cover": ""
+    },
+    {
+        "name": "Flights, aviation",
+        "categories": [
+            "travel"
+        ],
+        "slug": "flights-aviation",
+        "cover": ""
+    },
+    {
+        "name": "Streets of Genova",
+        "categories": [
+            "streetportrait"
+        ],
+        "slug": "genova-streets",
+        "cover": ""
+    },
+    {
+        "name": "Gran Canaria: Dunes of Maspalomas",
+        "categories": [
+            "travel"
+        ],
+        "slug": "grancanaria-maspalomas",
+        "cover": ""
+    },
+    {
+        "name": "Greece: Thasos",
+        "categories": [
+            "travel"
+        ],
+        "slug": "greece-thasos",
+        "cover": ""
+    },
+    {
+        "name": "The Canaries: Lanzarote",
+        "categories": [
+            "travel"
+        ],
+        "slug": "lanzarote-streets",
+        "cover": ""
+    },
+    {
+        "name": "New York: \nBryant Park",
+        "categories": [
+            "travel"
+        ],
+        "slug": "nyc-bryant-park",
+        "cover": ""
+    },
+    {
+        "name": "New York: Chinatown",
+        "categories": [
+            "travel"
+        ],
+        "slug": "nyc-chinatown",
+        "cover": ""
+    },
+    {
+        "name": "New York: \nPier 17",
+        "categories": [
+            "travel"
+        ],
+        "slug": "nyc-pier-17",
+        "cover": ""
+    },
+    {
+        "name": "New York: Staten Island Ferry",
+        "categories": [
+            "travel"
+        ],
+        "slug": "nyc-staten-island",
+        "cover": ""
+    },
+    {
+        "name": "New York: Time Square",
+        "categories": [
+            "travel"
+        ],
+        "slug": "nyc-time-square",
+        "cover": ""
+    },
+    {
+        "name": "Paris",
+        "categories": [
+            "travel"
+        ],
+        "slug": "paris",
+        "cover": ""
+    },
+    {
+        "name": "Other portraits",
+        "categories": [
+            "portrait",
+            "outdoor"
+        ],
+        "slug": "portraits",
+        "cover": "portraits/1.jpg"
+    },
+    {
+        "name": "Tenerife: Anaga and the barrancos",
+        "categories": [
+            "travel"
+        ],
+        "slug": "tenerife-anaga-chinamada",
+        "cover": ""
+    },
+    {
+        "name": "Flokken: Vikings",
+        "categories": [
+            "portrait",
+            "outdoor",
+            "commercial"
+        ],
+        "slug": "flokken-vikings",
+        "cover": "flokken-vikings/DSC01660.jpg"
+    },
+    {
+        "name": "Metro 4",
+        "categories": [
+            "fashion",
+            "portrait",
+            "outdoor"
+        ],
+        "slug": "samalie-metro",
+        "cover": "samalie-metro/s00y02gb8os.jpg"
+    },
+    {
+        "name": "Chinese New Year",
+        "categories": [
+            "event"
+        ],
+        "slug": "chinese-newyear",
+        "cover": "chinese-newyear/c2gr3xt02j.jpg"
+    },
+    {
+        "name": "Sidelight: Eniko",
+        "categories": [
+            "fashion",
+            "beauty",
+            "studio",
+            "portrait"
+        ],
+        "slug": "studio-sidelight-eniko",
+        "cover": "studio-sidelight-eniko/e1qst16n58.jpg"
+    },
+    {
+        "name": "Studio photoshoot: low-key & glamour",
+        "categories": [
+            "studio",
+            "portrait"
+        ],
+        "slug": "studio-feszek-lowkey",
+        "cover": "studio-feszek-lowkey/DSC08516.jpg"
+    },
+    {
+        "name": "Studio photoshoot: silhouette & body projection",
+        "categories": [
+            "studio",
+            "portrait"
+        ],
+        "slug": "studio-feszek-poledance",
+        "cover": "studio-feszek-poledance/D0SC09767.jpg"
+    },
+    {
+        "name": "Macrophotography",
+        "categories": [
+            "macro"
+        ],
+        "slug": "macro-benko",
+        "cover": ""
+    },
+    {
+        "name": "Urban exploration",
+        "categories": [
+            "portrait",
+            "outdoor"
+        ],
+        "slug": "ganz-dori",
+        "cover": "ganz-dori/DSC07111.jpg"
+    },
+    {
+        "name": "Arcade",
+        "categories": [
+            "portrait",
+            "night",
+            "outdoor"
+        ],
+        "slug": "gozsdu-cinti",
+        "cover": "gozsdu-cinti/D0SC05895.jpg"
+    },
+    {
+        "name": "Arcade II",
+        "categories": [
+            "portrait",
+            "night",
+            "outdoor"
+        ],
+        "slug": "gozsdu-viki",
+        "cover": "gozsdu-viki/DSC02387.jpg"
+    },
+    {
+        "name": "Spring photoshoot",
+        "categories": [
+            "portrait",
+            "outdoor"
+        ],
+        "slug": "romai-andi",
+        "cover": "romai-andi/D0SC02295.jpg"
+    },
+    {
+        "name": "Verona: street portraits",
+        "categories": [
+            "portrait",
+            "streetportrait"
+        ],
+        "slug": "verona-streetportraits",
+        "cover": ""
+    },
+    {
+        "name": "Theater premier: A no a tet",
+        "categories": [
+            "event",
+            "outdoor"
+        ],
+        "slug": "theater-a-no-a-tet",
+        "cover": "theater-a-no-a-tet/DSC08891.jpg"
+    },
+    {
+        "name": "Costa Brava",
+        "categories": [
+            "travel"
+        ],
+        "slug": "costa-brava-gr-92",
+        "cover": ""
+    },
+    {
+        "name": "Fictional sportswear",
+        "categories": [
+            "portrait",
+            "commercial"
+        ],
+        "slug": "gul-baba-morning",
+        "cover": "gul-baba-morning/D0SC00974.jpg"
+    },
+    {
+        "name": "Tattoocon & \nTattoo Majális",
+        "categories": [
+            "portrait",
+            "event",
+            "fashion"
+        ],
+        "slug": "tattooers",
+        "cover": "tattooers/DSC01250.jpg"
+    },
+    {
+        "name": "Tribute at Dürer",
+        "categories": [
+            "portrait",
+            "event"
+        ],
+        "slug": "concert-durer",
+        "cover": "concert-durer/D0SC01436.jpg"
+    },
+    {
+        "name": "Leo & Andreia: a Brasilian wedding",
+        "categories": [
+            "portrait",
+            "event",
+            "outdoor"
+        ],
+        "slug": "brasilian-wedding",
+        "cover": "brasilian-wedding/0DSC05881.jpg"
+    },
+    {
+        "name": "SpaR53tan",
+        "categories": [
+            "portrait",
+            "commercial"
+        ],
+        "slug": "minicooper-roadtrip",
+        "cover": "minicooper-roadtrip/D07404.jpg"
+    },
+    {
+        "name": "Urban World Games",
+        "categories": [
+            "portrait",
+            "commercial"
+        ],
+        "slug": "urban-world-games",
+        "cover": "urban-world-games/DSC08501.jpg"
+    },
+    {
+        "name": "Vácrátót Botanical Gardens",
+        "categories": [
+            "portrait",
+            "fashion",
+            "outdoor"
+        ],
+        "slug": "vacratot-botanical",
+        "cover": "vacratot-botanical/DSC07499.jpg"
+    },
+    {
+        "name": "Rome Surrealism",
+        "categories": [
+            "portrait",
+            "outdoor"
+        ],
+        "slug": "rome-surreal",
+        "cover": "rome-surreal/DSC09630.jpg"
+    },
+    {
+        "name": "Train Cemetery",
+        "categories": [
+            "portrait",
+            "fashion",
+            "outdoor"
+        ],
+        "slug": "train-cemetery",
+        "cover": "train-cemetery/0DSC00215.jpg"
+    },
+    {
+        "name": "Feelings",
+        "categories": [
+            "portrait",
+            "outdoor"
+        ],
+        "slug": "feelings",
+        "cover": "feelings/0DSC06371.jpg"
+    },
+    {
+        "name": "Tel Aviv: Jaffa port",
+        "categories": [
+            "portrait",
+            "streetportrait",
+            "travel",
+            "outdoor"
+        ],
+        "slug": "tel-aviv-port",
+        "cover": "tel-aviv-port/0DSC02671.jpg"
+    },
+    {
+        "name": "Astoria passage",
+        "categories": [
+            "portrait",
+            "outdoor"
+        ],
+        "slug": "astoria-passage",
+        "cover": "astoria-passage/DSC09069.jpg"
+    },
+    {
+        "name": "Prism portraits",
+        "categories": [
+            "portrait",
+            "outdoor"
+        ],
+        "slug": "kisoroszi-prism",
+        "cover": "kisoroszi-prism/DSC08671.jpg"
+    },
+    {
+        "name": "Studio photoshoot: Extreme fashion",
+        "categories": [
+            "portrait",
+            "fashion",
+            "studio"
+        ],
+        "slug": "studio-feszek-fashion",
+        "cover": "studio-feszek-fashion/DSC09619.jpg"
+    }
+]

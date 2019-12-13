@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Studio B72",
+    "categories": [
+      "portrait",
+      "fashion",
+      "studio"
+    ],
+    "slug": "studio-b72"
+  },
+  {
+    "name": "Samalie Botanical",
+    "categories": [
+      "portrait",
+      "fashion",
+      "studio"
+    ],
+    "slug": "samalie-botanical"
+  },
+  {
+    "name": "Amsterdam and Haarlem",
+    "categories": [
+      "travel",
+      "streetportrait"
+    ],
+    "slug": "amsterdam-and-haarlem"
+  },
+  {
+    "name": "Castelldefels: Escola de Surf",
+    "categories": [
+      "travel"
+    ],
+    "slug": "barcelona-castelldefels"
+  },
+  {
+    "name": "Barcelona: La Boqueria",
+    "categories": [
+      "travel"
+    ],
+    "slug": "barcelona-la-boqueria"
+  },
+  {
+    "name": "Barcelona: La Merce",
+    "categories": [
+      "event",
+      "travel",
+      "streetportrait"
+    ],
+    "slug": "barcelona-la-merce"
+  },
+  {
+    "name": "Barcelona: manteros & guiris",
+    "categories": [
+      "streetportrait"
+    ],
+    "slug": "barcelona-manteros"
+  },
+  {
+    "name": "Barcelona: Sitges",
+    "categories": [
+      "travel"
+    ],
+    "slug": "barcelona-sitges"
+  },
+  {
+    "name": "Barcelona: Walden 7",
+    "categories": [
+      "travel"
+    ],
+    "slug": "barcelona-walden-7"
+  },
+  {
+    "name": "Berlin",
+    "categories": [
+      "travel",
+      "streetportrait"
+    ],
+    "slug": "berlin"
+  },
+  {
+    "name": "Budapest: Duna korzó",
+    "categories": [
+      "streetportrait",
+      "outdoor"
+    ],
+    "slug": "budapest-duna-corso"
+  },
+  {
+    "name": "Budapest: Parlament",
+    "categories": [
+      "travel"
+    ],
+    "slug": "budapest-parliament"
+  },
+  {
+    "name": "Cinque Terre",
+    "categories": [
+      "travel",
+      "streetportrait"
+    ],
+    "slug": "cinque-terre"
+  },
+  {
+    "name": "Flights, aviation",
+    "categories": [
+      "travel"
+    ],
+    "slug": "flights-aviation"
+  },
+  {
+    "name": "Streets of Genova",
+    "categories": [
+      "streetportrait"
+    ],
+    "slug": "genova-streets"
+  },
+  {
+    "name": "Gran Canaria: Dunes of Maspalomas",
+    "categories": [
+      "travel"
+    ],
+    "slug": "grancanaria-maspalomas"
+  },
+  {
+    "name": "Greece: Thasos",
+    "categories": [
+      "travel"
+    ],
+    "slug": "greece-thasos"
+  },
+  {
+    "name": "The Canaries: Lanzarote",
+    "categories": [
+      "travel"
+    ],
+    "slug": "lanzarote-streets"
+  },
+  {
+    "name": "New York: \nBryant Park",
+    "categories": [
+      "travel"
+    ],
+    "slug": "nyc-bryant-park"
+  },
+  {
+    "name": "New York: Chinatown",
+    "categories": [
+      "travel"
+    ],
+    "slug": "nyc-chinatown"
+  },
+  {
+    "name": "New York: \nPier 17",
+    "categories": [
+      "travel"
+    ],
+    "slug": "nyc-pier-17"
+  },
+  {
+    "name": "New York: Staten Island Ferry",
+    "categories": [
+      "travel"
+    ],
+    "slug": "nyc-staten-island"
+  },
+  {
+    "name": "New York: Time Square",
+    "categories": [
+      "travel"
+    ],
+    "slug": "nyc-time-square"
+  },
+  {
+    "name": "Paris",
+    "categories": [
+      "travel"
+    ],
+    "slug": "paris"
+  },
+  {
+    "name": "Other portraits",
+    "categories": [
+      "portrait",
+      "outdoor"
+    ],
+    "slug": "portraits"
+  },
+  {
+    "name": "Tenerife: Anaga and the barrancos",
+    "categories": [
+      "travel"
+    ],
+    "slug": "tenerife-anaga-chinamada"
+  },
+  {
+    "name": "Flokken: Viking traditions",
+    "categories": [
+      "portrait",
+      "outdoor"
+    ],
+    "slug": "flokken-vikings"
+  },
+  {
+    "name": "Photoshoot: Metro 4",
+    "categories": [
+      "fashion",
+      "portrait",
+      "outdoor"
+    ],
+    "slug": "samalie-metro"
+  },
+  {
+    "name": "Chinese New Year",
+    "categories": [
+      "event"
+    ],
+    "slug": "chinese-newyear"
+  },
+  {
+    "name": "Studio photoshoot: Sidelight",
+    "categories": [
+      "fashion",
+      "studio",
+      "portrait"
+    ],
+    "slug": "studio-sidelight-eniko"
+  },
+  {
+    "name": "Studio photoshoot: low-key & glamour",
+    "categories": [
+      "studio",
+      "portrait"
+    ],
+    "slug": "studio-feszek-lowkey"
+  },
+  {
+    "name": "Studio photoshoot: silhouette & body projection",
+    "categories": [
+      "studio",
+      "portrait"
+    ],
+    "slug": "studio-feszek-poledance"
+  },
+  {
+    "name": "Macrophotography",
+    "categories": [
+      "macro"
+    ],
+    "slug": "macro-benko"
+  },
+  {
+    "name": "Urban exploration",
+    "categories": [
+      "portrait",
+      "outdoor"
+    ],
+    "slug": "ganz-dori"
+  },
+  {
+    "name": "Arcade",
+    "categories": [
+      "portrait",
+      "fashion",
+      "outdoor"
+    ],
+    "slug": "gozsdu-cinti"
+  },
+  {
+    "name": "Spring photoshoot",
+    "categories": [
+      "portrait",
+      "outdoor"
+    ],
+    "slug": "romai-andi"
+  },
+  {
+    "name": "Verona: street portraits",
+    "categories": [
+      "portrait",
+      "streetportrait"
+    ],
+    "slug": "verona-streetportraits"
+  },
+  {
+    "name": "Theater premier: A no a tet",
+    "categories": [
+      "event",
+      "outdoor"
+    ],
+    "slug": "theater-a-no-a-tet"
+  },
+  {
+    "name": "Costa Brava",
+    "categories": [
+      "travel"
+    ],
+    "slug": "costa-brava-gr-92"
+  },
+  {
+    "name": "Jazz ballett",
+    "categories": [
+      "portrait",
+      "fashion"
+    ],
+    "slug": "gul-baba-morning"
+  },
+  {
+    "name": "Tattoocon & \nTattoo Majális",
+    "categories": [
+      "portrait",
+      "event",
+      "fashion"
+    ],
+    "slug": "tattooers"
+  },
+  {
+    "name": "Tribute at Dürer",
+    "categories": [
+      "portrait",
+      "event"
+    ],
+    "slug": "concert-durer"
+  },
+  {
+    "name": "Leo & Andreia: a Brasilian wedding",
+    "categories": [
+      "portrait",
+      "event",
+      "outdoor"
+    ],
+    "slug": "brasilian-wedding"
+  },
+  {
+    "name": "Mini Cooper roadtrip",
+    "categories": [
+      "portrait",
+      "fashion"
+    ],
+    "slug": "minicooper-roadtrip"
+  },
+  {
+    "name": "Vácrátót Botanical Gardens",
+    "categories": [
+      "portrait",
+      "fashion",
+      "outdoor"
+    ],
+    "slug": "vacratot-botanical"
+  },
+  {
+    "name": "Rome Surrealism",
+    "categories": [
+      "portrait",
+      "outdoor"
+    ],
+    "slug": "rome-surreal"
+  },
+  {
+    "name": "Train Cemetery",
+    "categories": [
+      "portrait",
+      "fashion",
+      "outdoor"
+    ],
+    "slug": "train-cemetery"
+  },
+  {
+    "name": "Feelings",
+    "categories": [
+      "portrait",
+      "outdoor"
+    ],
+    "slug": "feelings"
+  },
+  {
+    "name": "Tel Aviv: Jaffa port",
+    "categories": [
+      "portrait",
+      "streetportrait",
+      "travel",
+      "outdoor"
+    ],
+    "slug": "tel-aviv-port"
+  },
+  {
+    "name": "Astoria passage",
+    "categories": [
+      "portrait",
+      "outdoor"
+    ],
+    "slug": "astoria-passage"
+  },
+  {
+    "name": "Prism portraits",
+    "categories": [
+      "portrait",
+      "outdoor"
+    ],
+    "slug": "kisoroszi-prism"
+  },
+  {
+    "name": "Studio photoshoot: Extreme fashion",
+    "categories": [
+      "portrait",
+      "fashion",
+      "studio"
+    ],
+    "slug": "studio-feszek-fashion"
+  }
+]
