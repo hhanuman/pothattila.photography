@@ -10,6 +10,7 @@ import { Link } from "gatsby"
 //import json from "../data/chapters.json";
 import isMobileDevice from "../hooks/ismobile"
 //import { graphql } from 'gatsby';
+//import useScrollOffset from '../hooks/useScrollOffset';
 
 /*
 const getData = (data) => {
@@ -61,8 +62,30 @@ const TheImage = ({
   )
 };
 
+const ParallaxImage = ({ src, height, offset, force }) => {
+  return (
+    <div style={{
+      scrollBehavior: 'smooth',
+      backgroundImage: `url(${src})`,
+      backgroundRepeat: 'no-repeat',
+      width: '100%',
+      height: height,
+      position: 'relative',
+      backgroundPositionY: (-height / 2) + offset * force
+    }}>
+      <h2 style={{
+        position: 'absolute',
+        color: 'white',
+        left: '25%',
+        top: `${offset * force * 1.5}px`
+      }}>Fashion Photography</h2>
+    </div>
+  );
+};
+
 const IndexPage = (props) => {
   const { height, width } = useWindowDimensions();
+  //const scroll = useScrollOffset();
   console.log(`[WINDOW] width: ${width}px height: ${height}px ${isMobileDevice() ? 'mobile' : 'desktop'}`);
   //const { files, meta, layout } = getData(props.data);
   return (
