@@ -8,16 +8,6 @@
         "cover": "bulleit/DSC01253.jpg"
     },
     {
-        "name": "Marie Claire Fashion Days 2019",
-        "categories": [
-            "portrait",
-            "fashion",
-            "marie-claire-fashion-days-2019"
-        ],
-        "slug": "marie-claire-fashion-days",
-        "cover": "marie-claire-fashion-days/DSC03133.jpg"
-    },
-    {
         "name": "MCFD: Nora Sarman",
         "categories": [
             "portrait",
@@ -26,6 +16,36 @@
         ],
         "slug": "mcfd2019-norasarman",
         "cover": "mcfd2019-norasarman/DSC03546.jpg"
+    },
+    {
+        "name": "MCFD: Nubu",
+        "categories": [
+            "portrait",
+            "fashion",
+            "marie-claire-fashion-days-2019"
+        ],
+        "slug": "mcfd2019-nubu",
+        "cover": "mcfd2019-nubu/DSC03594.jpg"
+    },
+    {
+        "name": "MCFD: Lilly Szett",
+        "categories": [
+            "portrait",
+            "fashion",
+            "marie-claire-fashion-days-2019"
+        ],
+        "slug": "mcfd2019-lillyszett",
+        "cover": "mcfd2019-lillyszett/DSC03133.jpg"
+    },
+    {
+        "name": "MCFD: Gas",
+        "categories": [
+            "portrait",
+            "fashion",
+            "marie-claire-fashion-days-2019"
+        ],
+        "slug": "mcfd2019-gas",
+        "cover": "mcfd2019-gas/DSC03452.jpg"
     },
     {
         "name": "MCFD: Viktoria Varga",
@@ -62,7 +82,6 @@
         "categories": [
             "portrait",
             "beauty",
-            "fashion",
             "studio"
         ],
         "slug": "terem22-mimi",
@@ -73,7 +92,6 @@
         "categories": [
             "portrait",
             "beauty",
-            "fashion",
             "studio"
         ],
         "slug": "b72-kaderin-gold",
@@ -84,7 +102,6 @@
         "categories": [
             "portrait",
             "beauty",
-            "fashion",
             "studio"
         ],
         "slug": "b72-kaderin-dummy",
@@ -95,7 +112,6 @@
         "categories": [
             "portrait",
             "beauty",
-            "fashion",
             "studio"
         ],
         "slug": "b72-kaderin-crops",
@@ -106,7 +122,6 @@
         "categories": [
             "portrait",
             "beauty",
-            "fashion",
             "studio"
         ],
         "slug": "b72-kaderin-curtain",
@@ -117,7 +132,6 @@
         "categories": [
             "portrait",
             "beauty",
-            "fashion",
             "studio"
         ],
         "slug": "b72-zsu-prism",
@@ -128,7 +142,6 @@
         "categories": [
             "portrait",
             "beauty",
-            "fashion",
             "studio"
         ],
         "slug": "b72-zsu-tinsel-curtain",
@@ -143,6 +156,15 @@
         ],
         "slug": "samalie-botanical",
         "cover": "samalie-botanical/DSC09878-emerald.jpg"
+    },
+    {
+        "name": "Terem22: Oku",
+        "categories": [
+            "portrait",
+            "studio"
+        ],
+        "slug": "terem22-oku",
+        "cover": "terem22-oku/DSC04754.jpg"
     },
     {
         "name": "Amsterdam and Haarlem",

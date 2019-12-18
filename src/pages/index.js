@@ -147,17 +147,14 @@ const IndexPage = (props) => {
         renderer={ImgWithTitle({ height: '355px' })}
       />
 
-      <h2><Link to='/gallery/studio-sidelight-eniko'>Sidelight: Eniko</Link></h2>
+      <h2><Link to='/gallery/terem22-oku'>Terem22: Oku</Link></h2>
       <HorizontalMasonry
         items={[
-          {title:'', src: 'studio-sidelight-eniko/e1qst16n58.jpg'},
-          {title:'', src: 'studio-sidelight-eniko/e5inmr9rs8.jpg'},
-          {title:'', src: 'studio-sidelight-eniko/eoj9yr69f5.jpg'},
-          {title:'', src: 'studio-sidelight-eniko/e9lzhrwmkk.jpg'},
-          {title:'', src: 'studio-sidelight-eniko/eiyhp2tjp4.jpg'},
-          {title:'', src: 'studio-sidelight-eniko/eo12xfufrs.jpg'}
+          {title:'', src: 'terem22-oku/DSC04740.jpg'},
+          {title:'', src: 'terem22-oku/DSC04754.jpg'},
+          {title:'', src: 'terem22-oku/DSC04764.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '370px' })}
+        renderer={ImgWithTitle({ height: '610px' })}
       />
 
       <h2><Link to='/gallery/samalie-botanical'>Botanical gardens: Samalie</Link></h2>
@@ -213,6 +210,19 @@ const IndexPage = (props) => {
           {title:'', src: 'astoria-passage/DSC09096.jpg'}
         ]}
         renderer={ImgWithTitle({ height: '260px' })}
+      />
+
+      <h2><Link to='/gallery/studio-sidelight-eniko'>Sidelight: Eniko</Link></h2>
+      <HorizontalMasonry
+        items={[
+          {title:'', src: 'studio-sidelight-eniko/e1qst16n58.jpg'},
+          {title:'', src: 'studio-sidelight-eniko/e5inmr9rs8.jpg'},
+          {title:'', src: 'studio-sidelight-eniko/eoj9yr69f5.jpg'},
+          {title:'', src: 'studio-sidelight-eniko/e9lzhrwmkk.jpg'},
+          {title:'', src: 'studio-sidelight-eniko/eiyhp2tjp4.jpg'},
+          {title:'', src: 'studio-sidelight-eniko/eo12xfufrs.jpg'}
+        ]}
+        renderer={ImgWithTitle({ height: '370px' })}
       />
 
       <h2><Link to='/gallery/gul-baba-morning'>Sunrise: Regina</Link></h2>
