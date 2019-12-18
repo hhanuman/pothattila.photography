@@ -9,17 +9,17 @@ function useScrollOffset() {
 
     const scrollHandler = (e) => {
         setOffset({
-            x: window.pageXOffset,
-            y: window.pageYOffset
+            x: typeof window !== 'undefined' ? window.pageXOffset : undefined,
+            y: typeof window !== 'undefined' ? window.pageYOffset : undefined
         });
     };
   
     // Add event listeners
     useEffect(() => {
-      window.addEventListener('scroll', scrollHandler);
+        typeof window !== 'undefined' && window.addEventListener('scroll', scrollHandler);
       // Remove event listeners on cleanup
       return () => {
-        window.removeEventListener('scroll', scrollHandler);
+        typeof window !== 'undefined' && window.removeEventListener('scroll', scrollHandler);
       };
     }, []); // Empty array ensures that effect is only run on mount and unmount
   

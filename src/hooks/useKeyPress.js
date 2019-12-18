@@ -20,12 +20,12 @@ function useKeyPress(targetKey) {
   
     // Add event listeners
     useEffect(() => {
-      window.addEventListener('keydown', downHandler);
-      window.addEventListener('keyup', upHandler);
+        typeof window !== 'undefined' && window.addEventListener('keydown', downHandler);
+        typeof window !== 'undefined' && window.addEventListener('keyup', upHandler);
       // Remove event listeners on cleanup
       return () => {
-        window.removeEventListener('keydown', downHandler);
-        window.removeEventListener('keyup', upHandler);
+        typeof window !== 'undefined' && window.removeEventListener('keydown', downHandler);
+        typeof window !== 'undefined' && window.removeEventListener('keyup', upHandler);
       };
     }, []); // Empty array ensures that effect is only run on mount and unmount
   
