@@ -128,7 +128,7 @@ const IndexPage = (props) => {
       <HorizontalMasonry
         items={[
           {title:'', src: 'mcfd2019-norasarman/DSC03564.jpg'},
-          {title:'', src: 'mcfd2019-norasarman/DSC03546.JPG'},
+          {title:'', src: 'mcfd2019-norasarman/DSC03546.jpg'},
           {title:'', src: 'mcfd2019-norasarman/DSC03550.jpg'},
           {title:'', src: 'mcfd2019-anitapasztor/DSC03759.jpg'},
           {title:'', src: 'mcfd2019-tomcsanyi/DSC03522.jpg'},
