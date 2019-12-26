@@ -56,7 +56,7 @@ const TheImage = ({
     <>
      {img.title && <h3>{img.title}</h3>}
       <img src={img.src} alt={img.src} style={{
-        maxHeight: isMobileDevice() ? 'none' : height
+        maxHeight: height
       }}/>
     </>
   )

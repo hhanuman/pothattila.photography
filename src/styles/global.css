@@ -164,7 +164,6 @@ p.description {
         margin: 0 auto;
     }
     .horizontal-masonry-item.open img {
-        max-height: none!important;
         padding: 20px;
     }
     .cover h3 {
@@ -235,6 +234,7 @@ p.description {
     }
     .horizontal-masonry-item img {
         width: 100%;
+        max-height: none!important;
     }
 }
 
