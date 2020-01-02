@@ -94,15 +94,27 @@ p {
     justify-content: center;
 }
 main h2 {
-    padding: 0 0 0 54px;
+    padding: 0 0 40px 54px;
+    margin: 54px 0 -30px 0;
 }
 main h2,
-main h2 a {
+main h2 a,
+main h2 a:visited {
     font-family: 'Josefin Sans', sans-serif;
-    opacity: 0.7;
     font-size: 50px;
-    line-height: 2px;
     letter-spacing: -3px;
+    display: inline-block;
+    color: white;
+}
+
+.scroll-gallery-item {
+    background-attachment: fixed!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: cover!important;
+    height: 100vh;
+    width: auto; 
+    border-top: 1px solid white;
 }
 
 p.description {
@@ -111,13 +123,33 @@ p.description {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.contact h1,
+.contact p{
+    margin: 15px 0 15px 54px;
+}
+.contact img {
+    margin: 0 auto;
+    display: block;
+}
+
+.horizontal-masonry {
+    width: 100%;
+    display: block;
+}
+
+.horizontal-masonry-item {
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
 /*===================
     DESKTOP
 ====================*/
 @media (pointer: fine){
     .wrapper {
         min-height: 100vh;
-        max-width: 1440px;
+        
     }
     h1 {
         font-size: 36px;
@@ -146,6 +178,9 @@ p.description {
     .cover img {
         max-width: 454px;
         width: 100%; 
+    }
+    .horizontal-masonry {
+        border-top: 3px solid white;
     }
     .horizontal-masonry-item img {
         height: 100%;
@@ -185,12 +220,14 @@ p.description {
     }
     main h2:after {
         content: '';
-        opacity: 0;
-        transition: opacity 0.2s ease-in;
+        display: block;
+        border-bottom: 3px solid rgb(255,255,255);
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
     }
     main h2:hover:after {
-        content: ' ⟹ ';
-        opacity: 0.3;
+        transform: scaleX(1);
+        transform-origin:  0% 50%;
     }
 }
 
@@ -218,7 +255,7 @@ p.description {
         padding: 0 5px 0 0;
     }
     .cover h3 {
-        font-size: 150%;
+        font-size: 250%;
         line-height: 36px;
     }
     h1 {
@@ -232,9 +269,15 @@ p.description {
     .story img {
         width: 100%; 
     }
+    .horizontal-masonry-item {
+        margin: 0;
+    }
     .horizontal-masonry-item img {
         width: 100%;
         max-height: none!important;
+    }
+    .scroll-gallery-item {
+        height: 20vh;
     }
 }
 

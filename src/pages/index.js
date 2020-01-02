@@ -5,6 +5,7 @@ import useWindowDimensions from "../hooks/useWindowDimensions"
 
 import Layout from "../components/layout"
 import HorizontalMasonry from "../components/HorizontalMasonry"
+import ScrollGallery from "../components/ScrollGallery"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 //import json from "../data/chapters.json";
@@ -84,7 +85,8 @@ const ParallaxImage = ({ src, height, offset, force }) => {
 };
 
 const IndexPage = (props) => {
-  const { height, width } = useWindowDimensions();
+  const { height, width = 0 } = useWindowDimensions();
+  const getHeight = (imgWidth) =>  `${Math.ceil(imgWidth / 1393 * width)}px`
   //const scroll = useScrollOffset();
   console.log(`[WINDOW] width: ${width}px height: ${height}px ${isMobileDevice() ? 'mobile' : 'desktop'}`);
   //const { files, meta, layout } = getData(props.data);
@@ -92,17 +94,31 @@ const IndexPage = (props) => {
     <Layout>
       <SEO title='Póth Attila Portrait Photography' />
 
-      <h2><Link to='/gallery/b72-kaderin-gold'>B72 set I: KC</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'studio-b72/DSC00900.jpg', 
+            render: () => <h2><Link to='/gallery/b72-kaderin-gold'>B72 set I: KC</Link></h2>
+          }
+        ]}
+      />
       <HorizontalMasonry
         items={[
           {title:'', src: 'studio-b72/DSC00894.jpg'},
           {title:'', src: 'studio-b72/DSC00900.jpg'},
           {title:'', src: 'studio-b72/DSC00922.jpg'},
         ]}
-        renderer={ImgWithTitle({ height: '300px' })}
+        renderer={ImgWithTitle({ height: getHeight(301) })}
       />
 
-      <h2><Link to='/gallery/b72-zsu-prism'>B72 set II: Zsu</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'studio-b72/DSC00139.jpg', 
+            render: () => <h2><Link to='/gallery/b72-zsu-prism'>B72 set II: Zsu</Link></h2>
+          }
+        ]}
+      />
       <HorizontalMasonry
         items={[
           {title:'', src: 'studio-b72/DSC00159.jpg'},
@@ -110,10 +126,17 @@ const IndexPage = (props) => {
           {title:'', src: 'studio-b72/DSC00174.jpg'},
           {title:'', src: 'studio-b72/DSC00186.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '260px' })}
+        renderer={ImgWithTitle({ height: getHeight(261) })}
       />
 
-      <h2><Link to='/gallery/terem22-mimi'>Terem 22: Mimi</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'terem22-mimi/DSC05183.jpg', 
+            render: () => <h2><Link to='/gallery/terem22-mimi'>Terem 22: Mimi</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'terem22-mimi/DSC05026.JPG'},
@@ -121,10 +144,17 @@ const IndexPage = (props) => {
           {title:'', src: 'terem22-mimi/DSC05052.jpg'},
           {title:'', src: 'terem22-mimi/DSC05026-crop-4x5.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '460px' })}
+        renderer={ImgWithTitle({ height: getHeight(460) })}
       />
 
-      <h2><Link to='/category/marie-claire-fashion-days-2019'>Marie Claire Fashion Days 2019</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'mcfd2019-lillyszett/DSC03133.jpg', 
+            render: () => <h2><Link to='/category/marie-claire-fashion-days-2019'>Marie Claire Fashion Days 2019</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'mcfd2019-norasarman/DSC03564.jpg'},
@@ -134,61 +164,104 @@ const IndexPage = (props) => {
           {title:'', src: 'mcfd2019-tomcsanyi/DSC03522.jpg'},
           {title:'', src: 'mcfd2019-viktoriavarga/DSC03645.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '333px' })}
+        renderer={ImgWithTitle({ height: getHeight(335) })}
       />
 
-    <h2><Link to='/gallery/train-cemetery'>Train: Agi</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'train-cemetery/DSC00216.jpg', 
+            render: () => <h2><Link to='/gallery/train-cemetery'>Train: Agi</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'train-cemetery/0DSC00215.jpg'},
           {title:'', src: 'train-cemetery/DSC00206.jpg'},
           {title:'', src: 'train-cemetery/DSC00151.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '355px' })}
+        renderer={ImgWithTitle({ height: getHeight(357) })}
       />
 
-      <h2><Link to='/gallery/terem22-oku'>Terem22: Oku</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'terem22-oku/DSC04930-bw.jpg', 
+            render: () => <h2><Link to='/gallery/terem22-oku'>Terem22: Oku</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'terem22-oku/DSC04740.jpg'},
           {title:'', src: 'terem22-oku/DSC04754.jpg'},
           {title:'', src: 'terem22-oku/DSC04764.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '610px' })}
+        renderer={ImgWithTitle({ height: getHeight(610) })}
       />
 
-      <h2><Link to='/gallery/samalie-botanical'>Botanical gardens: Samalie</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'samalie-botanical/DSC09878-emerald.jpg', 
+            render: () => <h2><Link to='/gallery/samalie-botanical'>Botanical gardens: Samalie</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'samalie-botanical/DSC09950-emerald.jpg'},
-          {title:'', src: 'samalie-botanical/DSC09878-emerald.jpg'},
+          {title:'', src: 'samalie-botanical/DSC09761-emerald.jpg'},
           {title:'', src: 'samalie-botanical/DSC09759-emerald.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '300px' })}
+        renderer={ImgWithTitle({ height: getHeight(301) })}
       />
 
-      <h2><Link to='/gallery/terem22-mimi'>Terem 22 set II: Mimi</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'terem22-mimi/DSC05066.jpg', 
+            render: () => <h2><Link to='/gallery/terem22-mimi'>Terem 22 set II: Mimi</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'terem22-mimi/DSC05150.jpg'},
           {title:'', src: 'terem22-mimi/DSC05190.jpg'},
           {title:'', src: 'terem22-mimi/DSC05183.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '475px' })}
+        renderer={ImgWithTitle({ height: getHeight(479) })}
       />
 
-      <h2><Link to='/gallery/samalie-metro'>Metro: Samalie</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'samalie-metro/1296777164738884.jpg', 
+            render: () => <h2><Link to='/gallery/samalie-metro'>Metro: Samalie</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
-          {title:'', src: 'samalie-metro/1296777164738884.jpg'},
+          {title:'', src: 'samalie-metro/DSC04631.jpg'},
+          {title:'', src: 'samalie-metro/svtltn0tn2.jpg'},
           {title:'', src: 'samalie-metro/s1k570ibgl.jpg'},
           {title:'', src: 'samalie-metro/smxxj9x465.jpg'},
           {title:'', src: 'samalie-metro/s00y02gb8os.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '225px' })}
+        renderer={ImgWithTitle({ height: getHeight(231) })}
       />
 
-      <h2><Link to='/gallery/b72-kaderin-dummy'>B72 set III: KC</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'studio-b72/DSC00225.jpg', 
+            render: () => <h2><Link to='/gallery/b72-kaderin-dummy'>B72 set III: KC</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'studio-b72/DSC00225.jpg'},
@@ -198,10 +271,17 @@ const IndexPage = (props) => {
           {title:'', src: 'studio-b72/DSC00242.jpg'},
           {title:'', src: 'studio-b72/DSC00246.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '277px' })}
+        renderer={ImgWithTitle({ height: getHeight(277) })}
       />
 
-      <h2><Link to='/gallery/astoria-passage'>Passage: Agi</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'astoria-passage/DSC08779.jpg', 
+            render: () => <h2><Link to='/gallery/astoria-passage'>Passage: Agi</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'astoria-passage/DSC08978.jpg'},
@@ -209,10 +289,17 @@ const IndexPage = (props) => {
           {title:'', src: 'astoria-passage/DSC09069.jpg'},
           {title:'', src: 'astoria-passage/DSC09096.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '260px' })}
+        renderer={ImgWithTitle({ height: getHeight(261) })}
       />
 
-      <h2><Link to='/gallery/studio-sidelight-eniko'>Sidelight: Eniko</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'studio-sidelight-eniko/eb4vkt7ojz.jpg', 
+            render: () => <h2><Link to='/gallery/studio-sidelight-eniko'>Sidelight: Eniko</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'studio-sidelight-eniko/e1qst16n58.jpg'},
@@ -222,17 +309,24 @@ const IndexPage = (props) => {
           {title:'', src: 'studio-sidelight-eniko/eiyhp2tjp4.jpg'},
           {title:'', src: 'studio-sidelight-eniko/eo12xfufrs.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '370px' })}
+        renderer={ImgWithTitle({ height: getHeight(370) })}
       />
 
-      <h2><Link to='/gallery/gul-baba-morning'>Sunrise: Regina</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'gul-baba-morning/DSC00993.jpg', 
+            render: () => <h2><Link to='/gallery/gul-baba-morning'>Sunrise: Regina</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'gul-baba-morning/DSC00963.jpg'},
           {title:'', src: 'gul-baba-morning/DSC00848.jpg'},
           {title:'', src: 'gul-baba-morning/DSC00956.jpg'},
         ]}
-        renderer={ImgWithTitle({ height: '450px' })}
+        renderer={ImgWithTitle({ height: getHeight(457) })}
       />
       <HorizontalMasonry
         items={[
@@ -240,30 +334,51 @@ const IndexPage = (props) => {
           {title:'', src: 'gul-baba-morning/DSC00789.jpg'},
           {title:'', src: 'gul-baba-morning/DSC00872.jpg'},
         ]}
-        renderer={ImgWithTitle({ height: '300px' })}
+        renderer={ImgWithTitle({ height: getHeight(301) })}
       />
 
-      <h2><Link to='/gallery/gozsdu-viki'>Neon nights I: Viki</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'gozsdu-viki/DSC02480.jpg', 
+            render: () => <h2><Link to='/gallery/gozsdu-viki'>Neon nights I: Viki</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'gozsdu-viki/DSC02366.jpg'},
           {title:'', src: 'gozsdu-viki/DSC02387.jpg'},
           {title:'', src: 'gozsdu-viki/DSC02337.jpg'},
         ]}
-        renderer={ImgWithTitle({ height: '370px' })}
+        renderer={ImgWithTitle({ height: getHeight(370) })}
       />
 
-      <h2><Link to='/gallery/gozsdu-cinti'>Neon nights II: Cinti</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'gozsdu-cinti/D0SC05895.jpg', 
+            render: () => <h2><Link to='/gallery/gozsdu-cinti'>Neon nights II: Cinti</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
-          {title:'', src: 'gozsdu-cinti/D0SC05895.jpg'},
           {title:'', src: 'gozsdu-cinti/DSC05884.jpg'},
+          {title:'', src: 'gozsdu-cinti/DSC05720.jpg'},
           {title:'', src: 'gozsdu-cinti/DSC05950.jpg'},
         ]}
-        renderer={ImgWithTitle({ height: '370px' })}
+        renderer={ImgWithTitle({ height: getHeight(370) })}
       />
 
-      <h2><Link to='/gallery/b72-zsu-tinsel-curtain'>B72 set IV: Zsu</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'studio-b72/DSC00741.jpg', 
+            render: () => <h2><Link to='/gallery/b72-zsu-tinsel-curtain'>B72 set IV: Zsu</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'studio-b72/DSC00733.jpg'},
@@ -271,17 +386,24 @@ const IndexPage = (props) => {
           {title:'', src: 'studio-b72/DSC00738.jpg'},
           {title:'', src: 'studio-b72/DSC00753.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '330px' })}
+        renderer={ImgWithTitle({ height: getHeight(331) })}
       />
       
-      <h2><Link to='/gallery/studio-feszek-fashion'>Fészek set I: Sara</Link></h2>
+      <ScrollGallery 
+        items={[
+          {
+            background: 'studio-feszek-fashion/DSC09337.jpg', 
+            render: () => <h2><Link to='/gallery/studio-feszek-fashion'>Fészek: Sara & Kata</Link></h2>
+          }
+        ]}
+      />  
       <HorizontalMasonry
         items={[
           {title:'', src: 'studio-feszek-fashion/DSC09621.jpg'},
           {title:'', src: 'studio-feszek-fashion/DSC09619.jpg'},
           {title:'', src: 'studio-feszek-fashion/DSC09603.jpg'}
         ]}
-        renderer={ImgWithTitle({ height: '395px' })}
+        renderer={ImgWithTitle({ height: getHeight(397) })}
       />
 
     </Layout>

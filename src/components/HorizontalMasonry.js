@@ -73,18 +73,12 @@ const Masonry = ({
     }, [leftPress, rightPress, escPress]);
 
     return (
-        <div className='horizontal-masonry'
-            style={{ width: '100%', display: 'block' }}>
+        <div className='horizontal-masonry'>
             {
                 items.map(
                     (item, i) => (
                         <div className={`horizontal-masonry-item`} 
-                            key={i}    
-                            style={{ 
-                                overflow: 'hidden',
-                                display: 'inline-block',
-                                margin: '0 5px 0 0'
-                            }} 
+                            key={i} 
                             onClick={() => {
                                 if(!isMobileDevice()){ 
                                     setActive(i);
