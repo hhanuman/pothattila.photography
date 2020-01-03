@@ -134,13 +134,13 @@ p.description {
 
 .horizontal-masonry {
     width: 100%;
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .horizontal-masonry-item {
     overflow: hidden;
     display: inline-block;
-    margin: 0 5px 0 0;
 }
 
 /*===================
@@ -268,9 +268,6 @@ p.description {
     .cover img,
     .story img {
         width: 100%; 
-    }
-    .horizontal-masonry-item {
-        margin: 0;
     }
     .horizontal-masonry-item img {
         width: 100%;

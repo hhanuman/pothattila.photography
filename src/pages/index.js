@@ -85,8 +85,8 @@ const ParallaxImage = ({ src, height, offset, force }) => {
 };
 
 const IndexPage = (props) => {
-  const { height, width = 0 } = useWindowDimensions();
-  const getHeight = (imgWidth) =>  `${Math.ceil(imgWidth / 1393 * width)}px`
+  const { height, width } = useWindowDimensions();
+  const getHeight = (imgWidth) =>  typeof window !== 'undefined' ? `${Math.ceil(imgWidth / 1393 * window.innerWidth)}px` : imgWidth;
   //const scroll = useScrollOffset();
   console.log(`[WINDOW] width: ${width}px height: ${height}px ${isMobileDevice() ? 'mobile' : 'desktop'}`);
   //const { files, meta, layout } = getData(props.data);
