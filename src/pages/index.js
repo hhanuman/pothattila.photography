@@ -2,7 +2,7 @@ import React from "react"
 //import { Link } from "gatsby"
 
 import useWindowDimensions from "../hooks/useWindowDimensions"
-
+import LazyLoad from 'react-lazyload'
 import Layout from "../components/layout"
 import HorizontalMasonry from "../components/HorizontalMasonry"
 import ScrollGallery from "../components/ScrollGallery"
@@ -46,7 +46,9 @@ const getData = (data) => {
 */
 
 const ImgWithTitle = ({height}) => (img) => (
-  <TheImage img={img} height={height} />
+  <LazyLoad offset={100} throttle={300} placeholder={<div className='hourglass'></div>}>
+    <TheImage img={img} height={height} />
+  </LazyLoad>
 );
 
 const TheImage = ({ 
@@ -57,7 +59,7 @@ const TheImage = ({
     <>
      {img.title && <h3>{img.title}</h3>}
       <img src={img.src} alt={img.src} style={{
-        maxHeight: height
+        maxHeight: height, width: 'auto', height: 'auto'
       }}/>
     </>
   )
@@ -304,7 +306,12 @@ const IndexPage = (props) => {
         items={[
           {title:'', src: 'studio-sidelight-eniko/e1qst16n58.jpg'},
           {title:'', src: 'studio-sidelight-eniko/e5inmr9rs8.jpg'},
-          {title:'', src: 'studio-sidelight-eniko/eoj9yr69f5.jpg'},
+          {title:'', src: 'studio-sidelight-eniko/eoj9yr69f5.jpg'}
+        ]}
+        renderer={ImgWithTitle({ height: getHeight(370) })}
+      />
+      <HorizontalMasonry
+        items={[
           {title:'', src: 'studio-sidelight-eniko/e9lzhrwmkk.jpg'},
           {title:'', src: 'studio-sidelight-eniko/eiyhp2tjp4.jpg'},
           {title:'', src: 'studio-sidelight-eniko/eo12xfufrs.jpg'}

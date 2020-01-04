@@ -11,7 +11,7 @@ const SecondPage = () => (
       <p>Do you want to work with me?
           <br/>
           pothattila [at] gmail [dot] com</p>
-      <img src='profile.jpg' alt='Póth Attila' />
+      <img src='../profile.jpg' alt='Póth Attila' />
     </div>
   </Layout>
 )
