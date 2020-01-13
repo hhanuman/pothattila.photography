@@ -46,7 +46,7 @@ const getData = (data) => {
 */
 
 const ImgWithTitle = ({height}) => (img) => (
-  <LazyLoad offset={100} throttle={300} placeholder={<div className='hourglass'></div>}>
+  <LazyLoad offset={200} throttle={300} placeholder={<div className='hourglass'></div>}>
     <TheImage img={img} height={height} />
   </LazyLoad>
 );

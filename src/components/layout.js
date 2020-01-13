@@ -29,7 +29,6 @@ const Layout = ({ children }) => {
       <div className='wrapper'>
         <main>{children}</main>
         <footer>
-          Póth Attila © {new Date().getFullYear()}
           {` `}
         </footer>
       </div>

@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
                         !isMobileDevice() && (
                           <>
                             <b>Póth Attila</b>
-                            | PORTRAIT PHOTOGRAPHY 
+                            &nbsp; PORTRAIT PHOTOGRAPHY 
                           </>
                         )
                       }
@@ -63,7 +63,7 @@ const Header = ({ siteTitle }) => (
           </li>
           <li>
               <Link to='/contact'>
-                Contact
+                About
               </Link>
           </li>
       </ul>
