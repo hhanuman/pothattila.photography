@@ -53,10 +53,26 @@ const SecondPage = () => (
       <ScrollGallery 
         items={[
           {
-            background: '../brasilian-wedding/DSC05589.jpg', 
+            background: '../terem22-mimi/DSC05052.jpg', 
             render: () => (
               <div className='editorial'>
-                <h2>Portrait Photography</h2>
+                <h2>
+                  Studio photoshoots
+                </h2>
+              </div>
+            )
+          }
+        ]}
+      />
+      <ScrollGallery 
+        items={[
+          {
+            background: '../train-cemetery/DSC00151.jpg', 
+            render: () => (
+              <div className='editorial'>
+                <h2>
+                  Location scouting, outdoor photoshoots
+                </h2>
               </div>
             )
           }
@@ -69,7 +85,21 @@ const SecondPage = () => (
             render: () => (
               <div className='editorial'>
                 <h2>
-                  Event Photography
+                  Moodboards, planning, concept
+                </h2>
+              </div>
+            )
+          }
+        ]}
+      />
+      <ScrollGallery 
+        items={[
+          {
+            background: '../b72-zsu-prism/DSC00159.jpg', 
+            render: () => (
+              <div className='editorial'>
+                <h2>
+                  Working with brands, models, stylists, creatives
                 </h2>
               </div>
             )
@@ -82,7 +112,9 @@ const SecondPage = () => (
             background: '../studio-b72/DSC00894.jpg', 
             render: () => (
               <div className='editorial'>
-                <h2>Beauty Photography & Retouching</h2>
+                <h2>
+                  Retouching, post-production, color grading
+                </h2>
               </div>
             )
           }
@@ -91,10 +123,12 @@ const SecondPage = () => (
       <ScrollGallery 
         items={[
           {
-            background: '../mcfd2019-tomcsanyi/DSC03535.jpg', 
+            background: '../rome-surreal/DSC09633.jpg', 
             render: () => (
               <div className='editorial'>
-                <h2>Fashion / Commercial Photography</h2>
+                <h2>
+                  Photoshop composites & special effects
+                </h2>
               </div>
             )
           }
@@ -103,28 +137,17 @@ const SecondPage = () => (
       <ScrollGallery 
         items={[
           {
-            background: '../rome-surreal/DSC09968.jpg', 
+            background: '../brasilian-wedding/DSC05589.jpg', 
             render: () => (
               <div className='editorial'>
-                <h2>Private Photo Tours <br/> & Location Scouting</h2>
+                <h2>
+                  Event photography
+                </h2>
               </div>
             )
           }
         ]}
       />
-      <ScrollGallery 
-        items={[
-          {
-            background: '../terem22-mimi/DSC05052.jpg', 
-            render: () => (
-              <div className='editorial'>
-                <h2>Studio Photoshoots</h2>
-              </div>
-            )
-          }
-        ]}
-      />
-
       <ScrollGallery 
         items={[
           {
