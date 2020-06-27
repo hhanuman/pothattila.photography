@@ -388,7 +388,8 @@
     {
         "name": "Chinese New Year",
         "categories": [
-            "event"
+            "event",
+            "portrait"
         ],
         "slug": "chinese-newyear",
         "cover": "chinese-newyear/c2gr3xt02j.jpg"
@@ -481,7 +482,7 @@
         "name": "Theater premier: A no a tet",
         "categories": [
             "event",
-            "outdoor"
+            "portrait"
         ],
         "slug": "theater-a-no-a-tet",
         "cover": "theater-a-no-a-tet/DSC08891.jpg"
@@ -495,7 +496,7 @@
         "cover": ""
     },
     {
-        "name": "Fictional sportswear",
+        "name": "Morning dance",
         "categories": [
             "portrait",
             "commercial"
@@ -558,6 +559,14 @@
         ],
         "slug": "rome-surreal",
         "cover": "rome-surreal/DSC09630.jpg"
+    },
+    {
+        "name": "Street photography",
+        "categories": [
+            "street"
+        ],
+        "slug": "street",
+        "cover": "street/DSC09313.jpg"
     },
     {
         "name": "Train Cemetery",

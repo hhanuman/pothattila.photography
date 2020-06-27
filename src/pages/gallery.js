@@ -12,7 +12,7 @@ const Gallery = (props) => {
     console.log('[GALLERY] ', props, files)
     return (
         <Layout>
-          <SEO title="Póth Attila Portrait Photography" />
+          <SEO title="Póth Attila Photographer" />
           {
             texts[slug] && 
             texts[slug].description && 

@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-plugin-create-client-paths`,
-      options: { prefixes: [`/gallery/*`, `/category/*`] },
+      options: { prefixes: [`/gallery/*`, `/category/*`, `/story/*`,] },
     },
     `gatsby-plugin-react-helmet`,
     {

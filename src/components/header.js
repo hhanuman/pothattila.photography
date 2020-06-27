@@ -19,7 +19,6 @@ const Header = ({ siteTitle }) => (
                         isMobileDevice() && (
                           <>
                             <b>Póth Attila</b>
-                            <br/>PORTRAIT PHOTOGRAPHY 
                           </>
                         )
                       }
@@ -27,7 +26,7 @@ const Header = ({ siteTitle }) => (
                         !isMobileDevice() && (
                           <>
                             <b>Póth Attila</b>
-                            &nbsp; PORTRAIT PHOTOGRAPHY 
+                            <small>photographer</small>
                           </>
                         )
                       }
@@ -52,13 +51,13 @@ const Header = ({ siteTitle }) => (
               </Link>
           </li>
           <li>
-              <Link to='/category/commercial'>
-                Commercial
+              <Link to='/gallery/street'>
+                Street
               </Link>
           </li>
           <li>
-              <Link to='/category/event'>
-                Event
+              <Link to='/blog'>
+                Stories
               </Link>
           </li>
           <li>

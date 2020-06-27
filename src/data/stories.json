@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Story I.",
+        "slug": "story-one",
+        "description": "this is only a preface",
+        "sections": [
+            {
+                "layout": "horizontalGallery"
+            }
+        ]
+    }
+]

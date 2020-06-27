@@ -94,7 +94,7 @@ const IndexPage = (props) => {
   //const { files, meta, layout } = getData(props.data);
   return (
     <Layout>
-      <SEO title='Póth Attila Portrait Photography' />
+      <SEO title='Póth Attila Photographer' />
 
       <ScrollGallery 
         items={[

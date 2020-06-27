@@ -7,7 +7,7 @@ import Auth from '../../../eta/presentation2/src/containers/Auth'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title='Póth Attila Portrait Photography' />
+    <SEO title='Póth Attila Photographer' />
     <div className='contact'>
     <ScrollGallery 
         items={[
@@ -15,7 +15,9 @@ const SecondPage = () => (
             background: '../profile.jpg', 
             render: () => (
               <div className='editorial'>
-                <h1>Hi, my name is Attila!</h1>
+                <h1>
+                  Hi, my name is Attila! I'm a professional photographer
+                </h1>
                 <br/>
                 <p>
                   Do you have a question? 
@@ -45,6 +47,9 @@ const SecondPage = () => (
                     <input type='text' name='_gotcha' style={{ display: 'none' }} />
                     <button type='submit'>Contact me!</button>
                 </form>
+                <h2>
+                  ...or, let me show you my workflow, how we would work together:
+                </h2>
               </div>
             )
           }
@@ -57,7 +62,7 @@ const SecondPage = () => (
             render: () => (
               <div className='editorial'>
                 <h2>
-                  Studio photoshoots
+                  Fashion style portraits
                 </h2>
               </div>
             )

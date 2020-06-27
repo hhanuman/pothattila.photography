@@ -24,7 +24,7 @@ const Category = (props) => {
     console.log('[CATEGORY] ', props, inCategory, layout)
     return (
         <Layout>
-          <SEO title="Póth Attila - category page" />
+          <SEO title="Póth Attila Photographer - category page" />
           <div className='masonry'>
           {
               inCategory.map(
